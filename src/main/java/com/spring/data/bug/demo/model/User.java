@@ -41,7 +41,7 @@ public class User implements Serializable {
                     @JoinColumn(name = "languageId")
             }
     )
-    @OrderColumn(name = "languageOrder")
+//    @OrderColumn(name = "languageOrder")
     private List<Language> languages;
 
     public String getUserId() {
