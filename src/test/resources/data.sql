@@ -7,8 +7,8 @@ insert into language (language_id, description) values ('lang1', 'language 1');
 insert into language (language_id, description) values ('lang2', 'language 2');
 
 /* Connect the user with the 2 languages */
-insert into user_languages (user_id, language_id, language_order) values ('user1', 'lang1', 1);
-insert into user_languages (user_id, language_id, language_order) values ('user1', 'lang2', 2);
+insert into user_languages (user_id, language_id, language_order) values ('user1', 'lang1', 0);
+insert into user_languages (user_id, language_id, language_order) values ('user1', 'lang2', 1);
 
 
 /* Insert 3 contacts pointing to the user */
